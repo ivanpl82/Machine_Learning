@@ -1,8 +1,33 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 **/.DS_Store
 */.DS_Store
 *.DS_Store
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Application specific files
+venv
+node_modules
+.sass-cache
+
+#pip files
+
+*pip*
+*Pip*
+
+# logs files
+
 **/*log
 */*log
 *log
-*pip*
-*Pip*
